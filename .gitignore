@@ -1,0 +1,32 @@
+### AL ###
+.vscode/
+.alcache/
+.alpackages/
+.snapshots/
+.output/
+*.app
+rad.json
+*.g.xlf
+*.flf
+TestResults.xml
+
+### Ocean / HPC outputs ###
+# Large data / model outputs
+*.nc
+*.jld2
+*.h5
+*.zarr
+
+# Common output dirs
+data/
+runs/
+output/
+figures/
+
+# (optional) logs
+*.log
+data/
+runs/
+*.nc
+.venv/
+gom_plot_env/
