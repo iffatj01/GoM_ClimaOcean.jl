@@ -124,7 +124,7 @@ python scripts/make_hycom_init_gom.py
 **Input files:**
 - `runs/gom_hr_grid.nc` (model grid)
 - `data/hycom/gomb4_daily_2015_001_3z.nc` (HYCOM 3D)
-- `data/hycom/gomb4_daily_2020_001_2d.nc` (HYCOM 2D)
+- `data/hycom/gomb4_daily_2015_001_2d.nc` (HYCOM 2D)
 
 **Output:** `runs/hycom_init_gom.nc`
 
