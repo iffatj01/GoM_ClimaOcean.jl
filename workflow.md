@@ -6,7 +6,7 @@ This directory stores the external input data, primarily the HYCOM ocean files u
 ### `scripts/dump_gom_grid.jl` https://github.com/iffatj01/GoM_ClimaOcean.jl/blob/main/scripts/dump_gom_grid.jl
 This script generates the model grid file `runs/gom_hr_grid.nc`, which contains the target longitude, latitude, and vertical coordinate (`z`) values for the Gulf of Mexico domain. This grid defines the target geometry used by the rest of the workflow.
 
-### `scripts/make_hycom_init_gom.py`
+### `scripts/make_hycom_init_gom.py` https://github.com/iffatj01/GoM_ClimaOcean.jl/blob/main/scripts/make_hycom_init.py
 This script reads the HYCOM source data from `data/`, interpolates it onto the model grid defined in `gom_hr_grid.nc`, and writes the result to `runs/hycom_init_gom.nc`. The output file contains the Oceananigans initial fields, including temperature (`T`), salinity (`S`), sea surface height (`η`), and, when available, velocity components (`u`, `v`).
 
 ### `scripts/run_gom_hr_1day.jl` https://github.com/iffatj01/GoM_ClimaOcean.jl/blob/main/scripts/run_gom_hr_1day.jl
