@@ -1,4 +1,4 @@
-## Data and Workflow
+## Data and Workflow shortly
 
 ### `data/`
 This directory stores the external input data, primarily the HYCOM ocean files used to construct the model initial condition.
