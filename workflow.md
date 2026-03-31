@@ -3,7 +3,7 @@
 ### `data/`
 This directory stores the external input data, primarily the HYCOM ocean files used to construct the model initial condition.
 
-### `scripts/dump_gom_grid.jl`
+### `scripts/dump_gom_grid.jl` https://github.com/iffatj01/GoM_ClimaOcean.jl/blob/main/scripts/dump_gom_grid.jl
 This script generates the model grid file `runs/gom_hr_grid.nc`, which contains the target longitude, latitude, and vertical coordinate (`z`) values for the Gulf of Mexico domain. This grid defines the target geometry used by the rest of the workflow.
 
 ### `scripts/make_hycom_init_gom.py`
