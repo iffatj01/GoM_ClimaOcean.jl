@@ -9,7 +9,7 @@ This script generates the model grid file `runs/gom_hr_grid.nc`, which contains 
 ### `scripts/make_hycom_init_gom.py`
 This script reads the HYCOM source data from `data/`, interpolates it onto the model grid defined in `gom_hr_grid.nc`, and writes the result to `runs/hycom_init_gom.nc`. The output file contains the Oceananigans initial fields, including temperature (`T`), salinity (`S`), sea surface height (`η`), and, when available, velocity components (`u`, `v`).
 
-### `scripts/run_gom_hr_1day.jl`
+### `scripts/run_gom_hr_1day.jl` https://github.com/iffatj01/GoM_ClimaOcean.jl/blob/main/scripts/run_gom_hr_1day.jl
 This script builds the Oceananigans/ClimaOcean model, reads `hycom_init_gom.nc` for initialization, applies the current extended-domain sponge configuration together with atmospheric forcing, runs the simulation for 1 day, and writes model outputs to `runs/gom_hr_output/`.
 
 ### One-line workflow summary
